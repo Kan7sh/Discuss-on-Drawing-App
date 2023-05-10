@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawingCard"
+    android:layout_width="160dp"
+    android:layout_height="175dp"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="25dp"
+    android:backgroundTint="#323232">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/drawingThumbnail"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"/>
+        <TextView
+            android:id="@+id/drawingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_below="@+id/drawingThumbnail"
+        android:layout_marginStart="14dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/outfitmedium"/>
+        <TextView
+            android:id="@+id/drawingTime"
+            android:fontFamily="@font/outfitmedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/drawingName"
+            android:layout_marginStart="14dp"/>
+        <TextView
+            android:id="@+id/drawingMarkers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="@font/outfitmedium"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/drawingTime"
+            android:layout_marginStart="14dp"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+</layout>

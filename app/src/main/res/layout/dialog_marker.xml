@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#333">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marker Details"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/markerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Title"
+        android:textColor="#fff"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/markerDesc"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="12dp"
+        android:hint="Description"
+        android:textColor="#fff"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        />
+    <TextView
+        android:id="@+id/drawingNameError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/addMarkerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Add Marker"
+        android:textColor="#000"
+        android:backgroundTint="#FFD369"/>
+</LinearLayout>

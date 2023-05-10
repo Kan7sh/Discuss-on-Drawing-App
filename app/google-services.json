@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700042842369",
+    "firebase_url": "https://powerplay-4f5f5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "powerplay-4f5f5",
+    "storage_bucket": "powerplay-4f5f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700042842369:android:9ddac8c57719f43b52cb00",
+        "android_client_info": {
+          "package_name": "com.main.discussondrawingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700042842369-tvs1v3ur649u05i5url8vaarv1hs2mq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.main.discussondrawingapp",
+            "certificate_hash": "a9ab68f27fb648d6f9ae1a42a119122de0452836"
+          }
+        },
+        {
+          "client_id": "700042842369-lir27mgqj6is3sdfnrgrvgn6bdtat3n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZF0VP5llPzOOndcvcVFaBFETJYvyQfto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700042842369-20djdp37k0s8ad3p03bou9bu8kuvsv0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
